@@ -1,14 +1,29 @@
 .container{
-    background-color: antiquewhite;
+    background-color: rgb(212, 111, 111);
 
 }
 a{
     text-decoration: none;
+    color: white;
 }
 
 
 .container .nav .navcontent li{
     list-style-type: none;
-    display: inline;
+    margin-left: 10px;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 15%;
     
+}
+
+.navcontent{
+    display: flex;
+    justify-content: end;
+    
+}
+
+body{
+    background-color: black;
+    font-family:Arial, Helvetica, sans-serif;
 }
