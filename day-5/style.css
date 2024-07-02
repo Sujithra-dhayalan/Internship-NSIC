@@ -1,0 +1,14 @@
+.container{
+    background-color: antiquewhite;
+
+}
+a{
+    text-decoration: none;
+}
+
+
+.container .nav .navcontent li{
+    list-style-type: none;
+    display: inline;
+    
+}
