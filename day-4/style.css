@@ -1,6 +1,7 @@
 .container{
     background-color: rgb(212, 111, 111);
     margin: 10px;
+    
 
 }
 a{
@@ -8,6 +9,11 @@ a{
     color: white;
 }
 
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
 
 .container .nav .navcontent li{
     list-style-type: none;
@@ -15,17 +21,21 @@ a{
     padding: 10px;
     border: 3px solid white;
     border-radius: 15%;
-    
-}
-
-.navcontent{
     display: flex;
     justify-content: end;
     
 }
 
+
+
+.navcontent{
+    display: flex;
+    justify-content: end;   
+}
+
 body{
     background-color: black;
+    color: white;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
 }
