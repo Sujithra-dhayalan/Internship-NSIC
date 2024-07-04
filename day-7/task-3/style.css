@@ -1,79 +1,91 @@
-.navbar{
+.navbar {
     height: 50px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: #af60a7;
-    padding: 8px;  
+    padding: 8px;
 }
 
-.pages ul{
+.pages ul {
     list-style-type: none;
     display: flex;
-    margin-left:30px ;
+    margin-left: 30px;
     cursor: pointer;
 }
 
-.pages li{
+.pages li {
     margin-left: 30px;
 }
 
-a{
+a {
     text-decoration: none;
     color: black;
 }
 
-body{
-    background-color:rgb(234, 182, 226);
+body {
+    background-color: rgb(234, 182, 226);
 }
 
-img{
-    
+img {
+
     width: 900px;
     height: 600px;
-    
+
 }
 
-*{
+* {
     margin: 5px;
     font-family: "Poppins";
     scroll-behavior: smooth;
 }
 
-.home{
+.home {
     margin-top: 50px;
     display: flex;
 }
 
-.slogan p{
+.slogan p {
     margin-top: 10px;
     text-align: justify;
     line-height: 1.6;
     margin: 10px;
 }
 
-.paragraph{
+.paragraph {
     margin-top: 15px;
 }
-.Home_Page{
+
+.Next_Page {
     margin-top: 30px;
 }
-.homepage{
+
+.page {
     display: flex;
 }
 
-.homepage p{
+.homepage p {
     display: inline-block;
 }
 
-.text{
+.text {
     flex: 1;
 }
-.image{
+
+.image {
     flex: 0 0 auto;
 }
 
+.text1 p{
+    margin-top: 20px;
+}
 
-
-
-
+.con{
+    margin-top: 40px;
+}
+footer{
+    text-align: center;
+    padding: 8px;
+    font-size: 14px;
+    background-color: #af60a7;
+}
