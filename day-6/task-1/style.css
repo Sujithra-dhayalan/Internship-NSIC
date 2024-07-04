@@ -1,0 +1,15 @@
+@keyframes Animation{
+    0%{color: blue; padding-left: 50px; transform: rotateZ(70deg);}
+    25%{color: red; padding-top: 50px;}
+    50%{color: green; padding-right: 50px;}
+    75%{color: gold; padding-bottom: 50px;}
+    100%{color: black; padding-right: 50px;}
+}
+h1{
+    display: flex;
+    justify-content: center;
+    margin: 300px;
+    font-family: sans-serif;
+    animation: Animation 1s ;
+    animation-iteration-count: infinite;
+}
