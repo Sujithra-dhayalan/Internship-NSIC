@@ -76,14 +76,15 @@ img {
     flex: 0 0 auto;
 }
 
-.text1 p{
+.text1 p {
     margin-top: 20px;
 }
 
-.con{
+.con {
     margin-top: 40px;
 }
-footer{
+
+footer {
     text-align: center;
     padding: 8px;
     font-size: 14px;
