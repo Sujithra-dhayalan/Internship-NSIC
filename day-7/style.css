@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 300px;
+}
+body{
+    background-color: #00234c;
+}
+h1{
+    text-align: center;
+    margin: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:80px;
+    font-weight: 700;
+    color: #5a0f40;
+    
+}
+h1:hover{
+    color: #bd0a43;
+    
+}
+.button{
+    width: 170px;
+    align-items: center;
+    border: 5px solid black;
+    border-radius: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:#bd0a43;
+    background-color: #5a0f40; 
+    cursor: pointer; 
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    margin-left: 680px;
+}
+.button:hover{
+    background-color: #bd0a43;
+    color: #00234c;
+    border-radius: 10px;
+    width: 170px;
+    height: 40px;
+}
