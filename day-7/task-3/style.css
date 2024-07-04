@@ -1,0 +1,56 @@
+.navbar{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #af60a7;
+    padding: 8px;  
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    margin-left:30px ;
+    cursor: pointer;
+}
+
+li{
+    margin-left: 30px;
+}
+
+body{
+    background-color:rgb(234, 182, 226);
+}
+
+img{
+    
+    width: 900px;
+    height: 600px;
+    
+}
+
+*{
+    margin: 5px;
+    font-family: "Poppins";
+}
+
+.home{
+    margin-top: 50px;
+    display: flex;
+}
+
+.slogan p{
+    margin-top: 10px;
+    text-align: justify;
+    line-height: 1.6;
+    margin: 10px;
+}
+
+.paragraph{
+    margin-top: 15px;
+}
+
+
+
+
+
